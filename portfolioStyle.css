@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('pexels.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+    line-height: 1.6;
+    padding-top: 60px; /* Adjust this padding based on the height of the navbar */
+}
+
+#name {
+    font-size: 80px;
+    color: #385d6f;
+    text-shadow: 2px 2px 3px #507a93;
+}
+
+#subtxt {
+    font-size: 30px;
+    text-shadow: 2px 2px 5px #2c4b5a;
+}
+
+nav {
+    background-color: rgba(13, 69, 97, 0.9); /* Semi-transparent background */
+    padding: 0.5em 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+header {
+    background-color: transparent; /* Semi-transparent background */
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header h2 {
+    margin: 0;
+    font-weight: normal;
+}
+
+section {
+    padding: 1em 2em;
+    margin: 1em 2em;
+    background-color: rgba(144, 165, 167, 0.8); /* Semi-transparent background */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h3 {
+    color: #385d6f;
+    border-bottom: 2px solid #385d6f;
+    padding-bottom: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.profile, .certifications ul, .skills ul, .hobbies ul, .languages ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: disc;
+}
+
+.education dl {
+    margin: 0;
+    padding: 0;
+}
+
+.education dl dt, .education dl dd {
+    margin: 0.5em 0;
+    position: relative;
+    padding-left: 20px; /* Space for the bullet */
+}
+
+.education dl dt::before {
+    content: "•"; /* Unicode bullet character */
+    position: absolute;
+    left: 0;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: rgba(102, 128, 138, 0.9); /* Semi-transparent background */
+    color: white;
+    margin-top: 2em;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1em;
+}
+
+footer a img {
+    vertical-align: middle;
+    margin-right: 0.5em;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.intro p, .profile p, .certifications ul, .skills ul, .hobbies ul, .languages ul {
+    background-color: rgba(255, 255, 255, 0.0); /* Transparent background */
+    padding: 1em;
+    border-radius: 8px;
+}
+
+h4 {
+    margin-top: 1em;
+    color: #385d6f;
+}
